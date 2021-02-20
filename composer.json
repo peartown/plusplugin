@@ -1,0 +1,40 @@
+{
+    "name": "peartown/plusplugin",
+    "description": "A powerful flarum integrated plug-in",
+    "keywords": [
+      "flarum","Aplayer","Dplayer","bilibili","Ashen","imashen.cn","TaylorLottner","PearTown","Donate"
+    ],
+    "type": "flarum-extension",
+    "license": "Apache",
+    "require": {
+      "php": ">=7.2",
+      "flarum/core": ">=0.1.0-beta.13 <0.1.0-beta.20"
+    },
+    "authors": [
+      {
+        "name": "Ashen",
+        "email": "i@imashen.cn",
+        "role": "Owner and Author"
+      }
+    ],
+    "autoload": {
+      "psr-4": {
+        "peartown\\plusplugin\\": "src/"
+      }
+    },
+    "extra": {
+      "flarum-extension": {
+        "title": "plusplugin",
+        "icon": {
+          "name": "fas fa-bars",
+          "backgroundColor": "#ff9191",
+          "color": "#FFFFFF"
+        }
+      },
+      "minimum-stability": "dev",
+      "flagrow": {
+        "discuss": "https://imashen.cn"
+      }
+    }
+  }
+  
